@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+      margin: 0;
+    height: 100vh;
+    background-image:url(../Downloads/k.jpg);
+    background-size: cover;      /* Fits entire screen */
+    background-position: center; /* Centers image */
+    background-repeat: no-repeat;
+    font-family:'Poppins', sans-serif;
+}
+
+/* Navbar */
+.nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:40px;
+    position: sticky;
+    margin-left: 25%;
+}
+
+/* Links */
+a{
+    font-size: 200%;
+    text-decoration:none;
+    color:red;
+    padding:10px;
+    transition:color 0.3s ease;
+}
+
+a:hover{
+    color:gold;
+    font-size: 220%;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#j{
+    text-align:center;
+    margin-top:15%;
+}
+
+/* Sections */
+section{
+    width:80%;
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+    min-height:20vh;
+    text-align:justify;
+    font-weight: 100;
+}
+
+/* Header */
+header{
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+    background-color:aquamarine;
+    color:brown;
+    padding:20px;
+    position: fixed;
+    top: 10px;
+    left:10px;
+}
+#ho{
+    padding:80px 10px;
+    height:50vh;
+    background:rgb(204, 230, 173);
+}
+#ser{
+padding:80px 10px;
+    height:50vh;
+    background:rgb(173, 200, 230);
+}
+#ab{
+padding:80px 10px;
+    height:50vh;
+    background:rgb(230, 173, 219);}
+#c{
+    padding:80px 10px;
+    height:50vh;
+    background:rgb(230, 195, 173);
+}
+#j{
+    padding:80px 20px;
+    height:20vh;
+    background-color: lightgreen;
+    text-align: center;
+    justify-content: center;
+}
+header:hover{
+    text-decoration: underline;
+    background-color: chartreuse;
+}
